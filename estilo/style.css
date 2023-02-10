@@ -73,7 +73,7 @@ nav a {
 }
 
 nav>a:hover {
-    background-color: #2C5773;
+    background-color: #2c5773;
     color: black;
 }
 
@@ -103,6 +103,20 @@ main h2 {
     font-size: 1.2em;
     background-image: linear-gradient(to right, var(--cor1), var(--cor5), transparent);
     text-indent: 8px;
+}
+
+main a {
+    color: var(--cor3);
+    padding: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;
+}
+
+main a:hover {
+    background-color: var(--cor1);
+    color: black;
 }
 
 main p {
@@ -143,11 +157,12 @@ footer {
 }
 
 .game-list {
-    background-image: linear-gradient(to right,  #91c3d95e, #b4a8a83d, #91c3d95e);
+    background-image: linear-gradient(to right, #91c3d95e, #b4a8a83d, #91c3d95e);
     padding: 15px 5px 15px 40px;
     margin: auto;
 }
 
+/*PAGE 2*/
 ol {
     color: black;
     font-family: var(--fonte-padrao);
@@ -169,4 +184,14 @@ li:before {
     color: black;
     position: absolute;
     left: -20px;
+}
+
+a {
+    font-size: 1.02em;
+}
+
+audio {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
 }
