@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 @font-face {
     font-family: 'Got';
     src: url('https://fabyanroger.github.io/got/fontes/game-of-thrones.ttf');
@@ -14,7 +16,7 @@
     --cor4: #1A3140;
     --cor5: #B4A8A8;
     --font-padrao: Helvetica Neue, Helvetica, Arial, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-destaque: 'Lato', sans-serif;
     --fonte-got: 'Got', sans-serif;
 
 }
@@ -25,7 +27,7 @@
 }
 
 body {
-    font-family: 'Got';
+    font-family: var(--fonte-destaque);
     background-color: var(--cor0);
 }
 
