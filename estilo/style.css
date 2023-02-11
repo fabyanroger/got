@@ -76,7 +76,7 @@ nav a {
     transition-duration: .6s;
 }
 
-nav>a:hover {
+a:hover {
     background-color: #2c5773;
     color: black;
 }
