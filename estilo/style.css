@@ -93,7 +93,7 @@ main {
     border-bottom-right-radius: 7px;
 }
 
-main h1 {
+main h2 {
     color: var(--cor4);
     font-family: var(--fonte-got);
     font-weight: bold;
@@ -103,7 +103,7 @@ main h1 {
     letter-spacing: 2px;
 }
 
-main h2 {
+main h3 {
     color: var(--cor4);
     font-family: var(--fonte-got);
     font-weight: bold;
