@@ -170,6 +170,16 @@ footer {
     padding: 5px;
 }
 
+footer > p > a {
+    color: white;
+}
+
+footer > p > a:hover{
+    background-color: rgb(207, 207, 207);
+    color: black;
+    border-radius: 3px;
+}
+
 .game-list {
     background-image: linear-gradient(to right, #91c3d95e, #b4a8a83d, #91c3d95e);
     padding: 15px 5px 15px 40px;
